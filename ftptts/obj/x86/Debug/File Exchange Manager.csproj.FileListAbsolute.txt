@@ -1,0 +1,36 @@
+F:\Main Projects\ftptts\ftptts\bin\Debug\Planner.xml
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Main Projects\ftptts\ftptts\bin\Debug\File Exchange Manager.exe.config
+F:\Main Projects\ftptts\ftptts\bin\Debug\File Exchange Manager.exe
+F:\Main Projects\ftptts\ftptts\bin\Debug\File Exchange Manager.pdb
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\File Exchange Manager.exe
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\File Exchange Manager.pdb
+F:\Main Projects\ftptts\ftptts\bin\Debug\File Exchange Manager.exe.manifest
+F:\Main Projects\ftptts\ftptts\bin\Debug\File Exchange Manager.application
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\File Exchange Manager.exe.manifest
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\File Exchange Manager.application
+F:\Main Projects\ftptts\ftptts\bin\Debug\app.config
+F:\Main Projects\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.exe
+F:\Main Projects\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.pdb
+F:\Main Projects\File Exchange Manager\ftptts\bin\Debug\Planner.xml
+F:\Main Projects\File Exchange Manager\ftptts\bin\Debug\app.config
+F:\Main Projects\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.exe.config
+F:\Main Projects\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.exe.manifest
+F:\Main Projects\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.application
+F:\Main Projects\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.exe.manifest
+F:\Main Projects\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.application
+F:\Main Projects\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.exe
+F:\Main Projects\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.pdb
+F:\Main Projects\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.csprojResolveAssemblyReference.cache
+F:\Работа\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.exe.config
+F:\Работа\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.exe
+F:\Работа\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.pdb
+F:\Работа\File Exchange Manager\ftptts\bin\Debug\Planner.xml
+F:\Работа\File Exchange Manager\ftptts\bin\Debug\app.config
+F:\Работа\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.exe.manifest
+F:\Работа\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.application
+F:\Работа\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.exe
+F:\Работа\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.csprojResolveAssemblyReference.cache
+F:\Работа\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.exe.manifest
+F:\Работа\File Exchange Manager\ftptts\obj\x86\Debug\File Exchange Manager.application
+F:\Работа\File Exchange Manager\ftptts\bin\Debug\File Exchange Manager.pdb

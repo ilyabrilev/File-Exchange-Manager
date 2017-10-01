@@ -1,0 +1,7 @@
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Main Projects\ftptts\ftptts\bin\Debug\ftptts.exe.config
+F:\Main Projects\ftptts\ftptts\bin\Debug\ftptts.exe
+F:\Main Projects\ftptts\ftptts\bin\Debug\ftptts.pdb
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\ftptts.exe
+F:\Main Projects\ftptts\ftptts\obj\x86\Debug\ftptts.pdb
+F:\Main Projects\ftptts\ftptts\bin\Debug\Planner.xml

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<planner>
+
+  <proxy>
+    <proxyAddress>%P_ProxyAddress_P%</proxyAddress>
+    <proxyUser>%P_ProxyUser_P%</proxyUser>
+    <proxyPass>%P_ProxyPass_P%</proxyPass>
+    <proxyAddressesToBypass>10.10.0.*</proxyAddressesToBypass>
+  </proxy>
+
+  <taskList>
+    
+    <task>
+      <id>1</id>
+      <isFake>true</isFake>
+      <taskDiscription></taskDiscription>
+      <!-- EveryTime/Hour/Day/Month/Year -->
+      <taskPeriod>Day</taskPeriod>
+
+      <route>
+        <routeDestination>10.0.0.0</routeDestination>
+        <routeSubnetmask>255.255.0.0</routeSubnetmask>
+        <routeGateway>10.10.0.10</routeGateway>
+      </route>
+      
+      <sourceFile>
+        <type>FTP</type>
+        <maxErrorCout>3</maxErrorCout>
+        <sleepAfterError>1000</sleepAfterError>
+        <ftpUsername>%P_TTS3Username_P%</ftpUsername>
+        <ftpPass>%P_TTS3Pass_P%</ftpPass>
+        <ftpUri>%P_TTS3Url_P%</ftpUri>
+        <ftpPort>80</ftpPort>
+        <isPassive>true</isPassive>
+        <ftpTimeout>30000</ftpTimeout>
+        <ftpUseBinary>true</ftpUseBinary>
+        <ftpKeepAlive>true</ftpKeepAlive>
+        <!-- Planner/Default/None -->
+        <ftpProxyType>Planner</ftpProxyType>
+
+        <addStrategy>
+          <!-- Использовать ли дату создания? -->
+          <addStrategyUseCreationDate>true</addStrategyUseCreationDate>
+          <!-- Prev/Now - какой временной интервал берется относительно текущего периода -->
+          <addStrategyDateRange>Prev</addStrategyDateRange>
+          <!-- Days/Months/Years - Текущий период -->
+          <addStrategyWorkInterval>Days</addStrategyWorkInterval>          
+          <!-- Equal/LessThan/MoreThan -->
+          <addStrategyCheckDateCondition>Equal</addStrategyCheckDateCondition>          
+          <!-- Использовать ли маску файла при поиске -->
+          <!-- Masked/None -->
+          <addStrategyFileNameUsage>Masked</addStrategyFileNameUsage>
+          <addStrategyFileMask>IM4????.%yy%O</addStrategyFileMask>
+        </addStrategy>
+
+        <filePath>/rinex/%yyyy%/</filePath>                          
+      </sourceFile>
+
+      <sourceFile>
+        <type>FTP</type>
+        <maxErrorCout>3</maxErrorCout>
+        <sleepAfterError>1000</sleepAfterError>
+        <ftpUsername>%P_TTS4Username_P%</ftpUsername>
+        <ftpPass>%P_TTS4Pass_P%</ftpPass>
+        <ftpUri>%P_TTS4Url_P%</ftpUri>
+        <ftpPort>80</ftpPort>
+        <isPassive>true</isPassive>
+        <ftpTimeout>30000</ftpTimeout>
+        <ftpUseBinary>true</ftpUseBinary>
+        <ftpKeepAlive>true</ftpKeepAlive>
+        <!-- Planner/Default/None -->
+        <ftpProxyType>Planner</ftpProxyType>
+
+        <addStrategy>
+          <!-- date range Prev/Now/LessThanNow/LessThanPrev -->
+          <addStrategyDateRange>Prev</addStrategyDateRange>
+          <!-- Masked/None -->
+          <addStrategyFileNameUsage>Masked</addStrategyFileNameUsage>
+          <addStrategyFileMask>IM3????.%yy%O</addStrategyFileMask>
+          <!-- Days/Months/Years-->
+          <addStrategyWorkInterval>Days</addStrategyWorkInterval>
+          <!-- Использовать ли дату создания? -->
+          <addStrategyUseCreationDate>true</addStrategyUseCreationDate>
+          <!-- Equal/LessThan/MoreThan -->
+          <addStrategyCheckDateCondition>Equal</addStrategyCheckDateCondition>
+        </addStrategy>
+
+        <filePath>/rinex/%yyyy%/</filePath>
+      </sourceFile>
+
+      <destinationFile>
+        <type>FTP</type>
+        <maxErrorCout>3</maxErrorCout>
+        <sleepAfterError>1000</sleepAfterError>
+        <ftpUsername>%P_Ftp11DepUsername_P%</ftpUsername>
+        <ftpPass>%P_Ftp11DepPass_P%</ftpPass>
+        <ftpUri>%P_Ftp11DepUri_P%</ftpUri>
+        <ftpPort>80</ftpPort>
+        <isPassive>false</isPassive>
+        <ftpTimeout>30000</ftpTimeout>
+        <useBinary>true</useBinary>
+        <keepAlive>true</keepAlive>
+        <!-- Planner/Default/None -->
+        <ftpProxyType>None</ftpProxyType>
+
+        <filePath>/</filePath>
+        
+      </destinationFile>
+            
+    </task>
+
+    <task>
+      <id>2</id>
+      <isFake>false</isFake>
+      <taskDiscription></taskDiscription>
+      <!-- EveryTime/Hour/Day/Month/Year -->
+      <taskPeriod>Day</taskPeriod>
+      
+      <route>
+        <routeDestination>10.0.0.0</routeDestination>
+        <routeSubnetmask>255.255.0.0</routeSubnetmask>
+        <routeGateway>10.10.0.10</routeGateway>
+      </route>      
+      
+      <sourceFile>
+        <type>WinFS</type>
+        <maxErrorCout>3</maxErrorCout>
+        <sleepAfterError>1000</sleepAfterError>
+        <addStrategy>
+          <!-- date range Prev/Now/LessThanNow/LessThanPrev -->
+          <addStrategyDateRange>Now</addStrategyDateRange>
+          <!-- Masked/None -->
+          <addStrategyFileNameUsage>Masked</addStrategyFileNameUsage>
+          <addStrategyFileMask>IM?????.%yy%O</addStrategyFileMask>
+          <!-- Days/Months/Years-->
+          <addStrategyWorkInterval>Months</addStrategyWorkInterval>
+          <!-- Использовать ли дату создания? -->
+          <addStrategyUseCreationDate>true</addStrategyUseCreationDate>
+          <!-- Equal/LessThan/MoreThan -->
+          <addStrategyCheckDateCondition>Equal</addStrategyCheckDateCondition>          
+        </addStrategy>
+        <filePath>\\Serverxp\temp\dot NET programms\test\testSource\%yyyy%\</filePath>
+      </sourceFile>
+
+      <destinationFile>        
+        <type>WinFS</type>
+        <maxErrorCout>3</maxErrorCout>
+        <sleepAfterError>1000</sleepAfterError>
+        <filePath>\\Serverxp\temp\dot NET programms\test\testDestination\%yyyy%\</filePath>
+      </destinationFile>
+
+    </task>
+    
+  </taskList>
+  
+</planner>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1023]F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.dll</TopNode>
+  <SelectedNode>[0-1023]F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1023]F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.dll" Expanded="true" />
+    <Node UniqueName="[0-1024]File_Exchange_Manager" Expanded="true" />
+    <Node UniqueName="[0-1025]File_Exchange_Manager.UnitTest" Expanded="true" />
+    <Node UniqueName="[0-1008]File_Exchange_Manager.UnitTest.AddStrategyTest" Expanded="true" />
+    <Node UniqueName="[0-1017]File_Exchange_Manager.UnitTest.PlannerTextTest" Expanded="true" />
+    <Node UniqueName="[0-1000]File_Exchange_Manager.UnitTest.UtilsTests" Expanded="true" />
+    <Node UniqueName="[0-1001]File_Exchange_Manager.UnitTest.UtilsTests.ParseWorkIntervalEnum_BadEnterString_EqualFirstPar" Expanded="true" />
+  </Nodes>
+</VisualState>

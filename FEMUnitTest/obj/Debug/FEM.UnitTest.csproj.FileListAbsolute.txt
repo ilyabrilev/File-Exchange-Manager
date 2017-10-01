@@ -1,0 +1,19 @@
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\Planner.xml
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\app.config
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.dll
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.pdb
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\File Exchange Manager.exe
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\File Exchange Manager.pdb
+F:\Main Projects\File Exchange Manager\FEMUnitTest\obj\Debug\FEM.UnitTest.csprojResolveAssemblyReference.cache
+F:\Main Projects\File Exchange Manager\FEMUnitTest\obj\Debug\FEMUnitTest.dll
+F:\Main Projects\File Exchange Manager\FEMUnitTest\obj\Debug\FEMUnitTest.pdb
+F:\Работа\File Exchange Manager\FEMUnitTest\bin\Debug\Planner.xml
+F:\Работа\File Exchange Manager\FEMUnitTest\bin\Debug\app.config
+F:\Работа\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.dll
+F:\Работа\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.pdb
+F:\Работа\File Exchange Manager\FEMUnitTest\bin\Debug\File Exchange Manager.exe
+F:\Работа\File Exchange Manager\FEMUnitTest\bin\Debug\File Exchange Manager.pdb
+F:\Работа\File Exchange Manager\FEMUnitTest\bin\Debug\nunit.framework.xml
+F:\Работа\File Exchange Manager\FEMUnitTest\obj\Debug\FEM.UnitTest.csprojResolveAssemblyReference.cache
+F:\Работа\File Exchange Manager\FEMUnitTest\obj\Debug\FEMUnitTest.dll
+F:\Работа\File Exchange Manager\FEMUnitTest\obj\Debug\FEMUnitTest.pdb

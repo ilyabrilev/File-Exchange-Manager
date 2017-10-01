@@ -1,0 +1,11 @@
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.dll
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\FEMUnitTest.pdb
+F:\Main Projects\File Exchange Manager\FEMUnitTest\obj\Debug\ResolveAssemblyReference.cache
+F:\Main Projects\File Exchange Manager\FEMUnitTest\obj\Debug\FEMUnitTest.dll
+F:\Main Projects\File Exchange Manager\FEMUnitTest\obj\Debug\FEMUnitTest.pdb
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\Planner.xml
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\app.config
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\File Exchange Manager.exe
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\File Exchange Manager.pdb
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\nunit.framework.dll
+F:\Main Projects\File Exchange Manager\FEMUnitTest\bin\Debug\nunit.framework.xml
